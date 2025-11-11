@@ -35,7 +35,7 @@ body {
 }
 
 header {
-  background-color: hsl(241, 81%, 54%);
+  background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%) 85%);
   border-radius: 20px;
   padding: 20px 40px;
   text-align: center;
@@ -45,10 +45,11 @@ header {
 }
 
 .results-circle {
-  background-color: hsl(256, 72%, 46%);
+  background: linear-gradient(to bottom, hsl(256, 72%, 46%) 30%, hsla(241, 72%, 46%, 0));
   border-radius: 50%;
-  padding: 8px;
-  margin: 0 10px;
+  max-width: 50%;
+  margin: 0 75px;
+  padding: 20px 15px;
 }
 
 .title, .of-100, .you-scored {
@@ -163,6 +164,7 @@ li.visual {
 
 span {
   opacity: 50%;
+  margin-left: 5px;
 }
 
 footer {
