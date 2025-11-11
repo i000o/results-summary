@@ -7,12 +7,9 @@ body {
     font-family: 'hanken grotesk', sans-serif; 
     display: flex; 
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%; 
+    width: 100vw; 
     margin-top: 0; 
     font-weight: 700; 
-
 }
 
 header { 
@@ -22,10 +19,9 @@ header {
     text-align: center;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
-    margin-right: 0; // won't remove? 
-    // width: 100%; 
+    width: 100%; 
     // box-shadow 
-    max-height: 60%; // is this doing anything? 
+    // max-height: 60%; // is this doing anything? 
 }
 
 .results-circle { 
