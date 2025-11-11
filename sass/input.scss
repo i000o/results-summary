@@ -12,6 +12,7 @@ body {
     width: 100%; 
     margin-top: 0; 
     font-weight: 700; 
+
 }
 
 header { 
@@ -23,6 +24,8 @@ header {
     border-top-left-radius: 0;
     margin-right: 0; // won't remove? 
     // width: 100%; 
+    // box-shadow 
+    max-height: 60%; // is this doing anything? 
 }
 
 .results-circle { 
@@ -31,6 +34,7 @@ header {
     // make the circle tighter - ref other code you've written 
     padding: 8px; 
     margin: 0 10px; 
+    // box-shadow 
 }
 
 .title, .of-100, .you-scored { 
@@ -68,5 +72,85 @@ header {
     line-height: 150%;
     margin: 0 15px; 
     padding: 10px; 
+}
+
+main { 
+    width: 100%; 
+}
+
+.summary { 
+    font-size: 1.1em; 
+    color: hsl(224, 30%, 27%); 
+    margin: 30px 20px; 
+}
+
+ul { 
+    padding: 0 20px; 
+}
+
+ul li { 
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li { 
+    border-radius: 12px;
+    // icons 
+    margin-bottom: 20px; 
+    background-repeat: no-repeat;
+    background-position: 5%;
+}
+
+p { 
+    font-size: 0.9em; 
+    margin: 20px; 
+    padding-left: 25px; 
+}
+
+p.reaction { 
+    color: hsl(0, 100%, 67%); 
+}
+
+p.memory { 
+    color: hsl(39, 100%, 56%); 
+}
+
+p.verbal { 
+    color: hsl(166, 100%, 37%);
+}
+
+p.visual { 
+    color: hsl(234, 85%, 45%); 
+}
+
+p.result { 
+    color: hsl(224, 30%, 27%); 
+}
+
+li.reaction { 
+    background-color: hsl(0, 100%, 67%, 10%); 
+    background-image: url(../assets/images/icon-reaction.svg);
+    background-position: 5%;
+}
+
+li.memory { 
+    background-color: hsl(39, 100%, 56%, 10%);
+    background-image: url(../assets/images/icon-memory.svg);
+}
+
+li.verbal { 
+    background-color: hsl(166, 100%, 37%, 10%);
+    background-image: url(../assets/images/icon-verbal.svg);
+}
+
+li.visual { 
+    background-color: hsl(234, 85%, 45%, 10%);
+    background-image: url(../assets/images/icon-visual.svg);
+}
+
+span { 
+    opacity: 50%;
+    // bit of margin? 
 }
 

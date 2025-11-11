@@ -44,6 +44,7 @@ header {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
   margin-right: 0;
+  max-height: 60%;
 }
 
 .results-circle {
@@ -87,4 +88,82 @@ header {
   line-height: 150%;
   margin: 0 15px;
   padding: 10px;
+}
+
+main {
+  width: 100%;
+}
+
+.summary {
+  font-size: 1.1em;
+  color: hsl(224, 30%, 27%);
+  margin: 30px 20px;
+}
+
+ul {
+  padding: 0 20px;
+}
+
+ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+li {
+  border-radius: 12px;
+  margin-bottom: 20px;
+  background-repeat: no-repeat;
+  background-position: 5%;
+}
+
+p {
+  font-size: 0.9em;
+  margin: 20px;
+  padding-left: 25px;
+}
+
+p.reaction {
+  color: hsl(0, 100%, 67%);
+}
+
+p.memory {
+  color: hsl(39, 100%, 56%);
+}
+
+p.verbal {
+  color: hsl(166, 100%, 37%);
+}
+
+p.visual {
+  color: hsl(234, 85%, 45%);
+}
+
+p.result {
+  color: hsl(224, 30%, 27%);
+}
+
+li.reaction {
+  background-color: hsla(0, 100%, 67%, 0.1);
+  background-image: url(../assets/images/icon-reaction.svg);
+  background-position: 5%;
+}
+
+li.memory {
+  background-color: hsla(39, 100%, 56%, 0.1);
+  background-image: url(../assets/images/icon-memory.svg);
+}
+
+li.verbal {
+  background-color: hsla(166, 100%, 37%, 0.1);
+  background-image: url(../assets/images/icon-verbal.svg);
+}
+
+li.visual {
+  background-color: hsla(234, 85%, 45%, 0.1);
+  background-image: url(../assets/images/icon-visual.svg);
+}
+
+span {
+  opacity: 50%;
 }/*# sourceMappingURL=input.css.map */
