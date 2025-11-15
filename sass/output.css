@@ -94,6 +94,7 @@ header {
   line-height: 150%;
   margin: 0 15px;
   padding: 10px;
+  max-width: 250px;
 }
 
 main {
@@ -114,19 +115,56 @@ ul li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-li {
+  background-repeat: no-repeat;
   border-radius: 12px;
   margin-bottom: 20px;
+  padding-left: 10px;
+  background-position: 5%;
+}
+
+li.reaction {
+  background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+.icon-text-group {
   background-repeat: no-repeat;
   background-position: 5%;
+  display: flex;
+  align-items: center;
+}
+
+li.reaction .icon-text-group {
+  background-image: url(../assets/images/icon-reaction.svg);
+}
+
+li.memory {
+  background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+li.memory .icon-text-group {
+  background-image: url(../assets/images/icon-memory.svg);
+}
+
+li.verbal {
+  background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+li.verbal .icon-text-group {
+  background-image: url(../assets/images/icon-verbal.svg);
+}
+
+li.visual {
+  background-color: hsla(234, 85%, 45%, 0.1);
+}
+
+li.visual .icon-text-group {
+  background-image: url(../assets/images/icon-visual.svg);
 }
 
 p {
   font-size: 0.9em;
   margin: 20px;
-  padding-left: 25px;
+  padding-left: 10px;
 }
 
 p.reaction {
@@ -147,27 +185,6 @@ p.visual {
 
 p.result {
   color: hsl(224, 30%, 27%);
-}
-
-li.reaction {
-  background-color: hsla(0, 100%, 67%, 0.1);
-  background-image: url(../assets/images/icon-reaction.svg);
-  background-position: 5%;
-}
-
-li.memory {
-  background-color: hsla(39, 100%, 56%, 0.1);
-  background-image: url(../assets/images/icon-memory.svg);
-}
-
-li.verbal {
-  background-color: hsla(166, 100%, 37%, 0.1);
-  background-image: url(../assets/images/icon-verbal.svg);
-}
-
-li.visual {
-  background-color: hsla(234, 85%, 45%, 0.1);
-  background-image: url(../assets/images/icon-visual.svg);
 }
 
 span {

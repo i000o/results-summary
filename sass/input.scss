@@ -43,7 +43,7 @@ header {
     max-width: 145px; 
     margin: 0 75px; 
     padding: 20px 15px; 
-    // flex: 0 0 auto; // don't change size 
+    // flex: 0 0 auto; // don't change size. I don't think I need this anymore. 
 }
 
 .title, .of-100, .you-scored { 
@@ -82,6 +82,7 @@ header {
     line-height: 150%;
     margin: 0 15px; 
     padding: 10px; 
+    max-width: 250px; // lock this width down 
 }
 
 main { 
@@ -102,19 +103,56 @@ ul li {
     display: flex; 
     flex-direction: row;
     justify-content: space-between;
-}
-
-li { 
+    background-repeat: no-repeat;
     border-radius: 12px;
     margin-bottom: 20px; 
+    padding-left: 10px; 
+    background-position: 5%;
+}
+
+li.reaction { 
+    background-color: hsl(0, 100%, 67%, 10%); 
+}
+
+.icon-text-group { 
     background-repeat: no-repeat;
     background-position: 5%;
+    display: flex; 
+    align-items: center;
+}
+
+li.reaction .icon-text-group { 
+    background-image: url(../assets/images/icon-reaction.svg);
+}
+
+li.memory { 
+    background-color: hsl(39, 100%, 56%, 10%);
+}
+
+li.memory .icon-text-group { 
+    background-image: url(../assets/images/icon-memory.svg);
+}
+
+li.verbal { 
+    background-color: hsl(166, 100%, 37%, 10%);
+}
+
+li.verbal .icon-text-group { 
+    background-image: url(../assets/images/icon-verbal.svg);
+}
+
+li.visual { 
+    background-color: hsl(234, 85%, 45%, 10%);
+}
+
+li.visual .icon-text-group { 
+    background-image: url(../assets/images/icon-visual.svg);
 }
 
 p { 
     font-size: 0.9em; 
     margin: 20px; 
-    padding-left: 25px; 
+    padding-left: 10px; 
 }
 
 p.reaction { 
@@ -135,27 +173,6 @@ p.visual {
 
 p.result { 
     color: hsl(224, 30%, 27%); 
-}
-
-li.reaction { 
-    background-color: hsl(0, 100%, 67%, 10%); 
-    background-image: url(../assets/images/icon-reaction.svg);
-    background-position: 5%;
-}
-
-li.memory { 
-    background-color: hsl(39, 100%, 56%, 10%);
-    background-image: url(../assets/images/icon-memory.svg);
-}
-
-li.verbal { 
-    background-color: hsl(166, 100%, 37%, 10%);
-    background-image: url(../assets/images/icon-verbal.svg);
-}
-
-li.visual { 
-    background-color: hsl(234, 85%, 45%, 10%);
-    background-image: url(../assets/images/icon-visual.svg);
 }
 
 span { 
@@ -193,7 +210,8 @@ footer {
 
 // active states 
 
-// @media screen and ()
-
-
-
+@media screen and (min-width: 498px) { 
+    p.reaction, p.memory, p.verbal, p.visual { 
+        
+    }
+}
