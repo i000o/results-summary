@@ -34,6 +34,7 @@ body {
   font-weight: 700;
   align-items: center;
   justify-content: center;
+  margin: 0;
 }
 
 header {
@@ -52,6 +53,7 @@ header {
   max-width: 50%;
   margin: 0 75px;
   padding: 20px 15px;
+  flex: 0 0 auto;
 }
 
 .title, .of-100, .you-scored {

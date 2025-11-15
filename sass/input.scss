@@ -12,6 +12,7 @@ body {
     font-weight: 700; 
     align-items: center;
     justify-content: center;
+    margin: 0; 
 }
 
 header { 
@@ -35,9 +36,10 @@ header {
         hsla(241, 72%, 46%, 0) 
     );
     border-radius: 50%;
-    max-width: 50%;
+    max-width: 50%; 
     margin: 0 75px; 
     padding: 20px 15px; 
+    flex: 0 0 auto; 
 }
 
 .title, .of-100, .you-scored { 
@@ -186,6 +188,7 @@ footer {
 }
 
 // I don't know why there's a left margin on the page - it's from <body> it appears but I haven't been able to remove it 
+// active states 
 
 
 
