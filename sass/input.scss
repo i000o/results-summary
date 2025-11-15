@@ -7,9 +7,10 @@ body {
     font-family: 'hanken grotesk', sans-serif; 
     display: flex; 
     flex-direction: column;
-    width: 100svw; 
+    min-width: 100svw; 
     margin-top: 0; 
     font-weight: 700; 
+    align-items: center;
     justify-content: center;
 }
 
@@ -184,6 +185,7 @@ footer {
     opacity: 80%;
 }
 
+// I don't know why there's a left margin on the page - it's from <body> it appears but I haven't been able to remove it 
 
 
 
