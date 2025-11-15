@@ -8,7 +8,6 @@ body {
     display: flex; 
     flex-direction: column;
     min-width: 100svw; 
-    margin-top: 0; 
     font-weight: 700; 
     align-items: center;
     justify-content: center;
@@ -27,6 +26,10 @@ header {
     border-top-right-radius: 0;
     border-top-left-radius: 0;
     width: 100%; 
+    display: flex; // to keep elements inside centred despite viewport size 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
 }
 
 .results-circle { 
@@ -36,10 +39,11 @@ header {
         hsla(241, 72%, 46%, 0) 
     );
     border-radius: 50%;
-    max-width: 50%; 
+    min-width: 145px;
+    max-width: 145px; 
     margin: 0 75px; 
     padding: 20px 15px; 
-    flex: 0 0 auto; 
+    // flex: 0 0 auto; // don't change size 
 }
 
 .title, .of-100, .you-scored { 
@@ -187,8 +191,9 @@ footer {
     opacity: 80%;
 }
 
-// I don't know why there's a left margin on the page - it's from <body> it appears but I haven't been able to remove it 
 // active states 
+
+// @media screen and ()
 
 
 
