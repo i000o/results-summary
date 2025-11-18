@@ -27,7 +27,7 @@ My goal here was just to remind myself of the strong foundation in frontend skil
 ![](/screenshots/results-summary-mobile.png)
 
 :jigsaw: [Live Site URL](https://i000o.github.io/results-summary/)  
-:pencil2: [Solution URL]()
+:pencil2: [Solution URL](https://www.frontendmentor.io/solutions/results-summary-8D883JXAk_)
 
 ## Built with
 
