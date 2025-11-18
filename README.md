@@ -1,98 +1,62 @@
-# Frontend Mentor - Results summary component
+# Frontend Mentor - Results summary component solution
 
-![Design preview for the Results summary component coding challenge](./preview.jpg)
+This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for checking out this front-end coding challenge.
+- [Overview](#overview)
+- [Goal](#goal)
+- [Outcome](#outcome)
+- [Process](#process)
+- [Built with](#built-with)
+<!-- - [Feedback](#feedback) -->
+- [Lessons](#lessons)
+- [Development](#development)
+- [Useful resources](#useful-resources)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+## Overview
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+I took on this task to re-enter frontend skills after focusing on Javascript theory for a couple of months. It was a great way to remind myself of all the skills I've already attained and I enjoyed getting back into the flow of styling pages like this.
 
-## The challenge
+## Goal
 
-Your challenge is to build out this results summary component and get it looking as close to the design as possible.
+My goal here was just to remind myself of the strong foundation in frontend skills I'm building on, and to begin committing again after an accidental dip in activity on GitHub, simply because I was practicing JS elsewhere. Following this, I intend to take on some FS projects to flesh out my portfolio as a full-stack engineer.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+## Outcome
 
-We provide the data for the results in a local `data.json` file. So you can use that to add the results and total score dynamically if you choose.
+![](/screenshots/results-summary-desktop.png)
+![](/screenshots/results-summary-mobile.png)
 
-Your users should be able to:
+:jigsaw: [Live Site URL](https://i000o.github.io/results-summary/)  
+:pencil2: [Solution URL]()
 
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
-- **Bonus**: Use the local JSON data to dynamically populate the content
+## Built with
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+- Semantic HTML5 markup
+- CSS
+- Mobile-first workflow
+- Sass
 
-## Where to find everything
+## Process
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+- I started mapping out the HTML elements I could see, trying to plan ahead with the viewport sizes and compare how the mobile/desktop versions differ. I decided to use Flex as I couldn't see any areas that might become a problem unless I used Grid so I opted for that.
+- I had forgotten a few things and had to jog my memory, referring back to other code I've written in the past on similar projects, but once I started exercising these muscles again, my instincts quickly returned. This felt good, but was startling having been a little out of practice. I decided not to less this type of gap build up again as recovering is another task in and of itself.
+- I started with a mobile first design, having taken advice from another engineer who told me that those are the 'building blocks' of the design, and that the desktop version is a reshuffling of those. This kept the responsive designing a simpler task in my mind so I approached it that way and will only change it if I find something easier.
+- I feel much more confident now using class names rather than HTML elements. It makes total sense why and helps my CSS to be extra readable to myself. I love classes.
+- I used `background-color` a lot in this design and while I'm not totally confident on gradients, I got pretty close.
+- I also used `ul` here, which I'm pretty comfortable with at this point. I enjoy making deliberate, semantic use of my HTML elements so that everything flows nicely on the page.
+- I still really enjoy using Sass, although I've been encouraged to take on Tailwind by others devs. I'll take on something like this in due time, but for now, Sass' easy nesting/grouping of CSS declarations make the document so clean and easy to navigate.
+- I had to jog my memory a little on media queries, but quickly recalled how to go about this. I've grown in confidence a lot in this area. When I first started, it could be a nightmare, but I have a good flow now.
+- The active state was really easy to implement. It's easy to overlook these if you're keen to finish.
+- I really enjoyed styling the `li`'s with the breakdown of the results. Refreshing on icons, `space-between`, `margin`, `padding` etc. was a nice return to foundational CSS concepts that can make something finnicky really seamless.
+- Overall, I'm really happy with the standard of design I'm consistently able to achieve. I have a keen visual eye and will notice the tiniest of details which can make me execessively harsh on my own outcomes, but when I reach a satisfactory standard, I can appreciate the impact of my attentiveness. It makes the component look really complete and when it holds up well dynamically, I'm really happy.
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+## Lessons
 
-If you would like the Figma design file to gain experience using professional tools and build more accurate projects faster, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+No big lessons here other than namely, don't stop committing! It's not nice to try to patch up chunks of time with your memory. Better to just keep on.
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
+## Development
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
+As I said in the [Overview](#overview), this was to warm me back up before I attempt some more advanced full-stack projects on FM. Thankfully, this article has helped me to feel confident approaching these heftier tasks in my mission to beef out my portfolio with some really strong projects that demonstrate my ambition. [12 full-stack project ideas](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.frontendmentor.io/articles/full-stack-project-ideas&ved=2ahUKEwiv4cO-4vuQAxUSVEEAHe7TI1kQFnoECBgQAQ&usg=AOvVaw2bsHL5FXHfP06DFCQ584sW)
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
-
-## Building your project
-
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
-
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
-
-## Deploying your project
-
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
-
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
-
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
-
-## Create a custom `README.md`
-
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
-
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
-
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
-
-## Submitting your solution
-
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
-
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi@frontendmentor.io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
 # results-summary

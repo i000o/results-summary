@@ -179,15 +179,6 @@ span {
     margin-left: 5px; 
 }
 
-footer { 
-    width: 100%; 
-    display: flex; 
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
 .continue { 
     margin: 20px; 
     padding: 10px 90px; 
@@ -208,6 +199,15 @@ footer {
     hsl(252, 100%, 67%),
     hsl(241, 81%, 54%) 85%
 );  
+}
+
+footer { 
+    width: 100%; 
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .attribution { 
@@ -243,6 +243,10 @@ footer {
         padding: 0 20px 0 20px; 
     }
 
+    .summary { 
+        font-size: 1.3em; 
+    }
+
     ul li { 
         margin-bottom: 15px; 
     }
@@ -254,10 +258,6 @@ footer {
 
     p { 
         padding-left: 15px; 
-    }
-    
-    .summary { 
-        font-size: 1.3em; 
     }
 
     .continue { 
