@@ -9,7 +9,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 - [Outcome](#outcome)
 - [Process](#process)
 - [Built with](#built-with)
-<!-- - [Feedback](#feedback) -->
 - [Lessons](#lessons)
 - [Development](#development)
 - [Useful resources](#useful-resources)
@@ -48,7 +47,7 @@ My goal here was just to remind myself of the strong foundation in frontend skil
 - I still really enjoy using Sass, although I've been encouraged to take on Tailwind by others devs. I'll take on something like this in due time, but for now, Sass' easy nesting/grouping of CSS declarations make the document so clean and easy to navigate.
 - I had to jog my memory a little on media queries, but quickly recalled how to go about this. I've grown in confidence a lot in this area. When I first started, it could be a nightmare, but I have a good flow now.
 - The active state was really easy to implement. It's easy to overlook these if you're keen to finish.
-- I really enjoyed styling the `li`'s with the breakdown of the results. Refreshing on icons, `space-between`, `margin`, `padding` etc. was a nice return to foundational CSS concepts that can make something finnicky really seamless.
+- I really enjoyed styling the `li`'s with the breakdown of the results. Refreshing on icons, `space-between`, `margin`, `padding` etc. was a nice return to foundational CSS concepts that can make something finicky really seamless.
 - Overall, I'm really happy with the standard of design I'm consistently able to achieve. I have a keen visual eye and will notice the tiniest of details which can make me execessively harsh on my own outcomes, but when I reach a satisfactory standard, I can appreciate the impact of my attentiveness. It makes the component look really complete and when it holds up well dynamically, I'm really happy.
 
 ## Lessons
