@@ -202,7 +202,6 @@ footer {
 }
 
 .continue {
-  flex: 1 0;
   margin: 20px;
   padding: 10px 90px;
   background-color: hsl(224, 30%, 27%);
@@ -212,6 +211,12 @@ footer {
   border-radius: 50px;
   width: 90%;
   letter-spacing: 0.5px;
+  border: none;
+}
+
+.continue:hover {
+  cursor: pointer;
+  background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%) 85%);
 }
 
 .attribution {
