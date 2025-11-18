@@ -210,6 +210,8 @@ footer {
   font-family: inherit;
   font-size: 1.1em;
   border-radius: 50px;
+  width: 90%;
+  letter-spacing: 0.5px;
 }
 
 .attribution {
@@ -255,16 +257,12 @@ footer {
   }
   .continue {
     margin-top: 15px;
-    width: 88%;
     font-size: 0.9em;
+    width: 88%;
   }
   footer {
-    display: none;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    flex-wrap: wrap;
+    position: absolute;
+    bottom: 150px;
   }
   header {
     border-top-right-radius: 20px;
